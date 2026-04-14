@@ -1,0 +1,1 @@
+This repository implements a Hardware Integrity Layer designed for the Croc SoC. The module acts as a synchronous interposer between the OBI (Open Bus Interface) crossbar and the physical SRAM primitives. It ensures data persistence reliability by implementing a Linear Block Code (LBC) wrapper around standard memory macros.
